@@ -17,7 +17,7 @@ Virtuaalkeskkond on aktiivne, kõik sõltuvused installitakse sinna.<br>
 Pythoni versiooni võib kontrollida käsuga python3 -V<br>
 Tuleb installida Selenium käsuga python3 -m pip install selenium<br>
 
-Skript kasutab webdriverina Chrome. Faili nimeks on chromedriver. Linux süsteemis see tuleb paigutada kas kaustasse /usr/bin või /usr/local/bin
+Skript kasutab webdriverina Chrome. Faili nimeks on chromedriver. Linux süsteemis see tuleb paigutada kas kaustasse /usr/bin või /usr/local/bin<br>
 chromedriver saab aadressilt https://sites.google.com/a/chromium.org/chromedriver/downloads
 
 Nüüd main.py peaks olema töökorras. Kõik ülejäänud sõltuvused on lahendatud import abil main.py alguses.
