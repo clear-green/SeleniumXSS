@@ -8,14 +8,14 @@ Kõik käsud on edaspidi Linuxi jaoks.
 
 Sõltuvused olid installitud venv virtuaalkeskkonda. Valik on kasutaja oma, aga venv puhul see peaks olema globaalselt installitud.
 
-Projekti kaustas nimega SeleniumXSS tuleb käivitada python3 -m venv venv
-Luuakse uut kaustat nimega venv
-Kaustasse SeleniumXSS tuleb kopeerida main.py fail
-Virtuaalkeskkonna käivitamiseks tuleb kirjutada käsureale source venv/bin/activate
-Käsurea algusesse ilmub (venv)
-Virtuaalkeskkond on aktiivne, kõik sõltuvused installitakse sinna.
-Pythoni versiooni võib kontrollida käsuga python3 -V
-Tuleb installida Selenium käsuga python3 -m pip install selenium
+Projekti kaustas nimega SeleniumXSS tuleb käivitada python3 -m venv venv<br>
+Luuakse uut kaustat nimega venv<br>
+Kaustasse SeleniumXSS tuleb kopeerida main.py fail<br>
+Virtuaalkeskkonna käivitamiseks tuleb kirjutada käsureale source venv/bin/activate<br>
+Käsurea algusesse ilmub (venv)<br>
+Virtuaalkeskkond on aktiivne, kõik sõltuvused installitakse sinna.<br>
+Pythoni versiooni võib kontrollida käsuga python3 -V<br>
+Tuleb installida Selenium käsuga python3 -m pip install selenium<br>
 
 Skript kasutab webdriverina Chrome. Faili nimeks on chromedriver. Linux süsteemis see tuleb paigutada kas kaustasse /usr/bin või /usr/local/bin
 chromedriver saab aadressilt https://sites.google.com/a/chromium.org/chromedriver/downloads
